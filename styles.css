@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+body {
+    background-color: #191919;
+    margin: 0;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1, h2, h3, p, a, img {
+    margin: 1px;
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+.description, .features, .instructions, .warning {
+    background-color: #121212;
+    padding: 20px;
+    text-align: center;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer {
+    margin-top: auto;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+@media (max-width: 600px) {
+    img {
+        width: 40%;
+    }
+}
+
+summary {
+    font-weight: 600;
+}
+
+.big {
+    font-size: 10.5em;
+}
+
+.orange {
+    color: #FEA500;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.abril {
+    font-family: "Abril Fatface", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+.repolink {
+    padding: 10px 20px;
+    margin: 20px;
+    color: black;
+    background-color: #FEA500;
+    border: none;
+    border-radius: 5px;
+    transition: padding 0.5s;
+    text-decoration: none;
+}
+
+.repolink:hover {
+    padding: 15px 25px;
+}
