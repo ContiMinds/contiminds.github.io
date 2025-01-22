@@ -1,0 +1,67 @@
+.normal {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.roboto {
+    font-family: "ContinentalStagSans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.abril {
+    font-family: "Abril Fatface", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ContinentalStagSans';
+    src: url('assets/fonts/ContinentalStagSans-Book-Web.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ContinentalStagSansItalic';
+    src: url('assets/fonts/ContinentalStagSans-BookItalic-Web.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ContinentalStagSansLight';
+    src: url('assets/fonts/ContinentalStagSans-Light-Web.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ContinentalStagSansLightItalic';
+    src: url('assets/fonts/ContinentalStagSans-LightItalic-Web.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ContinentalStagSansMed';
+    src: url('assets/fonts/ContinentalStagSans-Med-Web.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ContinentalStagSansMedItalic';
+    src: url('assets/fonts/ContinentalStagSans-MedItalic-Web.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.conti {
+    font-family: "ContinentalStagSans", sans-serif;
+}
